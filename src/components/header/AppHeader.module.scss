@@ -1,0 +1,32 @@
+.header {
+	background-color: #525252;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px;
+	}
+
+	&__logo {
+		font-size: 25px;
+		padding-right: 20px;
+	}
+}
+
+.menu {
+	display: flex;
+
+	&__list {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+		row-gap: 5px;
+	}
+
+	&__item {
+		font-size: 18px;
+	}
+
+}

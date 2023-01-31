@@ -1,0 +1,25 @@
+.footer {
+	background-color: #525252;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px;
+	}
+
+	&__logo {
+		font-size: 25px;
+	}
+
+	&__more {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 25px;
+	}
+
+	&__link {
+		font-size: 15px;
+		font-weight: 500;
+	}
+}
